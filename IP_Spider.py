@@ -76,7 +76,7 @@ class IP_Spider(object):
 		return self.ip_pool
 
 if __name__ == '__main__':
-	foo = IP_spider()
+	foo = IP_Spider()
 	x = foo.generate_ip_pool()
 	print len(x)
 	print x
